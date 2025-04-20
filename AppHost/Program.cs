@@ -1,3 +1,7 @@
+using AppHost.CustomExtensions;
+
 IDistributedApplicationBuilder builder = DistributedApplication.CreateBuilder(args);
 
-await builder.Build().RunAsync().ConfigureAwait(true);
+builder.AddProject<Projects.Web_API>("API").WithSwaggerUi();
+
+await builder.Build().RunAsync().ConfigureAwait(false);
