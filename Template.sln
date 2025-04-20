@@ -24,7 +24,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DBBFC5BF-664
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchitectureTests", "ArchitectureTests\ArchitectureTests.csproj", "{BED640C1-5FDF-4BF7-9E09-3DA60BB11120}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitnessFunctions", "ArchitectureTests\FitnessFunctions.csproj", "{BED640C1-5FDF-4BF7-9E09-3DA60BB11120}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
